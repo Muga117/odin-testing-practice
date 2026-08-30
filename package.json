@@ -1,0 +1,42 @@
+{
+  "name": "web-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack serve --config webpack.dev.js",
+    "deploy": "git subtree push --prefix dist origin gh-pages",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muga117/web-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Muga117/web-template/issues"
+  },
+  "homepage": "https://github.com/Muga117/web-template#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.7",
+    "@eslint/js": "^10.0.1",
+    "babel-loader": "^10.1.1",
+    "css-loader": "^7.1.4",
+    "eslint": "^10.8.1",
+    "globals": "^17.11.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.8",
+    "jest": "^30.4.2",
+    "prettier": "3.9.6",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.109.2",
+    "webpack-cli": "^7.2.2",
+    "webpack-dev-server": "^6.0.0",
+    "webpack-merge": "^6.0.1"
+  }
+}
